@@ -63,7 +63,7 @@ module bands
     call get_path(npointstotal_path,npaths)
     call get_eigenenergies(npointstotal_path)
     write(*,*) 'heyaaa'
-    pause
+    !pause
 	end subroutine get_energy_bands
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   subroutine get_path(npointstotal_path,npaths)
